@@ -23,9 +23,14 @@ docker build -t django-app:v1 .
 docker run -d -p 80:80 --name my-django-container django-app:v1
 \`\`\`
 
+
+
 ### 4. Проверка результата
 Откройте браузер и перейдите по адресу: [http://localhost:80](http://localhost:80)
 
 Вы должны увидеть стандартную приветственную страницу (заглушку) Django: "The install worked successfully! Congratulations!".
+
+<img width="1912" height="1028" alt="image" src="https://github.com/user-attachments/assets/3c9e0df9-d7a9-449d-8901-94538bcb8b95" />
+<img width="1226" height="292" alt="image" src="https://github.com/user-attachments/assets/530f0c94-bb33-46c9-a75f-2cf31a5f0551" />
 
 ---
